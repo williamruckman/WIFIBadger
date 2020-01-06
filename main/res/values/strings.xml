@@ -1,0 +1,176 @@
+<resources>
+    <!--Application name -->
+    <string name="app_name">WIFI Badger</string>
+    <string name="app_name_service">WIFI Badger Service</string>
+    <string name="app_service_running">Monitoring for WIFI events...</string>
+    <string name="app_firstrun">\nWelcome to WIFI Badger!\n</string>
+    <string name="app_firstrun_text">This application will automatically monitor your WIFI depending on your selected roaming profile and choose the best WIFI access point or hotspot for the best signal and performance. You can modify the behavior on the settings tab.\n</string>
+    <string name="app_permission_marshmallow_first_run">Marshmallow+ detected, you will now be prompted to accept permissions.\n</string>
+    <string name="app_OK">OK</string>
+    <string name="app_QUIT">QUIT</string>
+    <string name="app_REQUEST_LOCATION">REQUEST LOCATION</string>
+    <string name="app_REQUEST_PHONE">REQUEST PHONE</string>
+    <string name="app_permissions_accept">After accepting the permissions. Press OK. You may also press QUIT to exit the program.</string>
+    <string name="app_permissions_location">PERMISSION 1: LOCATION\nLocation is required for WIFI scanning in Marshmallow+</string>
+    <string name="app_permissions_read_phone_state">PERMISSION 2: PHONE\nPhone is required for checking if you are on an active phone call. If you are, it will not change your WIFI state at that time.</string>
+    <string name="app_permissions">PERMISSIONS</string>
+    <string name="app_loading">LOADING...</string>
+
+    <!--Tabs -->
+    <string name="title_section1">Status</string>
+    <string name="title_section2">Area</string>
+    <string name="title_section3">Settings</string>
+    <string name="title_section4">About</string>
+
+    <!--Action menu -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_reassociate">Reassociate now</string>
+    <string name="action_refreshing">Refreshing...</string>
+    <string name="action_reassociating">Reassociating...</string>
+    <string name="action_reassociating_not">WIFI must be enabled...</string>
+    <string name="action_reassociating_nobetter">No better signal found...</string>
+    <string name="action_reassociating_off">Roaming profile is off...</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_exitAll">Exit(+KillServices)</string>
+
+    <!--About tab -->
+    <string name="about_app">APPLICATION</string>
+    <string name="about_app_name">WIFI Badger\n</string>
+    <string name="about_author">AUTHOR</string>
+    <string name="about_author_name">William Ruckman\n</string>
+    <string name="about_website">WEBSITE</string>
+    <string name="about_website_url">https://ruckman.net\nhttps://github.com/williamruckman/WIFIBadger\n</string>
+    <string name="about_version">VERSION</string>
+    <string name="about_version_number">2.02 Open Source\n</string>
+    <string name="about_description">DESCRIPTION</string>
+    <string name="about_description_text">A WIFI application for monitoring your WIFI and keeping it strong. This application will periodically scan the local WIFI area for a stronger signal based on your chosen roaming profile and connect you to it.\n</string>
+    <string name="about_support_button">Website</string>
+    <string name="about_privacy_button">Privacy Policy</string>
+
+    <!--Settings tab -->
+    <string name="settings_header_general">GENERAL</string>
+    <string name="settings_header_service">SERVICE</string>
+    <string name="settings_header_debug">DEBUGGING</string>
+    <string name="settings_header_advanced">ADVANCED</string>
+
+    <string name="roamingprofile_prompt">Roaming Profile</string>
+    <string name="roamingprofile_warningprompt">*Warning! The selected profile will automatically add OPEN networks to your saved AP list. It is highly suggested that you use a VPN such as OpenVPN.</string>
+    <string-array name="roamingprofilespinner">
+        <item>Off</item>
+        <item>Same SSID</item>
+        <item>Any Saved SSID</item>
+        <item>Any SSID and Open</item>
+    </string-array>
+
+
+    <string name="inapprefresh_switch">In-App Auto Polling</string>
+    <string name="servicerefresh_switch">Service Auto Polling</string>
+    <string name="inapprefresh_prompt">Service Power-on Polling</string>
+    <string name="emaildebugs_prompt">Email Debugs (Causes restart)</string>
+    <string-array name="inapprefreshspinner">
+        <item>15 Seconds</item>
+        <item>30 Seconds</item>
+        <item>45 Seconds</item>
+        <item>1 Minute</item>
+        <item>2 Minutes</item>
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>20 Minutes</item>
+        <item>30 Minutes</item>
+        <item>40 Minutes</item>
+        <item>50 Minutes</item>
+        <item>60 Minutes</item>
+    </string-array>
+
+    <string name="servicerefresh_prompt">Service Power-off Polling</string>
+    <string-array name="servicerefreshspinner">
+        <item>15 Seconds</item>
+        <item>30 Seconds</item>
+        <item>45 Seconds</item>
+        <item>1 Minute</item>
+        <item>2 Minutes</item>
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>20 Minutes</item>
+        <item>30 Minutes</item>
+        <item>40 Minutes</item>
+        <item>50 Minutes</item>
+        <item>60 Minutes</item>
+    </string-array>
+
+    <!--Settings tab for adavanced RSSI-->
+    <string name="RSSI_prompt">RSSI Sensitivity</string>
+    <string-array name="RSSIspinner">
+        <item>5 RSSI</item>
+        <item>10 RSSI</item>
+        <item>15 RSSI</item>
+        <item>20 RSSI</item>
+        <item>25 RSSI</item>
+    </string-array>
+
+    <!--Status tab-->
+    <string name="status_wifi_state">WIFI State:&#160;</string>
+    <string name="status_wifi_state_on">On&#160;</string>
+    <string name="status_wifi_state_off">Off&#160;</string>
+    <string name="status_wifi_state_0">Disabling</string>
+    <string name="status_wifi_state_1">Disabled</string>
+    <string name="status_wifi_state_2">Enabling</string>
+    <string name="status_wifi_state_3">Enabled</string>
+    <string name="status_wifi_state_4">Unknown</string>
+    <string name="status_wifi_connected">Connected</string>
+    <string name="status_wifi_disconnected">Disconnected</string>
+    <string name="status_wifi_SSID">Router SSID:&#160;</string>
+    <string name="status_wifi_BSSID">Router BSSID:&#160;</string>
+    <string name="status_wifi_MAC">Local WIFI MAC:&#160;</string>
+    <string name="status_wifi_RSSI">RSSI:&#160;</string>
+    <string name="status_wifi_RSSI_unit">&#160;dBm</string>
+    <string name="status_wifi_linkspeed">Link Speed:&#160;</string>
+    <string name="status_wifi_linktype">Link Type Equivalent:&#160;</string>
+    <string name="status_wifi_linktype80211">802.11</string>
+    <string name="status_wifi_linktype80211b">802.11b</string>
+    <string name="status_wifi_linktype80211ag">802.11ag</string>
+    <string name="status_wifi_linktype80211n">802.11n</string>
+    <string name="status_wifi_linktype80211ac">802.11ac</string>
+    <string name="status_wifi_linkquality">Link Quality:&#160;</string>
+    <string name="status_wifi_linkqualityexcellent">Excellent</string>
+    <string name="status_wifi_linkqualitygood">Good</string>
+    <string name="status_wifi_linkqualitypoor">Poor</string>
+
+    <string name="status_wifi_linkspeed_unit">&#160;Mbps</string>
+    <string name="status_wifi_frequency">Radio Frequency:&#160;</string>
+    <string name="status_wifi_frequency_unit">&#160;MHz</string>
+    <string name="status_wifi_header_general">GENERAL</string>
+    <string name="status_wifi_header_signal">SIGNAL</string>
+    <string name="status_wifi_header_network">NETWORK</string>
+    <string name="status_wifi_header_savedaps">SAVED ACCESS POINTS</string>
+    <string name="status_wifi_percent">Percent:&#160;</string>
+    <string name="status_wifi_percent_unit">&#160;%</string>
+
+    <string name="status_wifi_ipaddress">IP Address:&#160;</string>
+    <string name="status_wifi_netmask">Netmask:&#160;</string>
+    <string name="status_wifi_gateway">Gateway:&#160;</string>
+    <string name="status_wifi_dns1">DNS1:&#160;</string>
+    <string name="status_wifi_dns2">DNS2:&#160;</string>
+    <string name="status_wifi_type">IP Type:&#160;</string>
+    <string name="status_wifi_type_dhcp">DHCP</string>
+    <string name="status_wifi_type_static">Static</string>
+    <string name="status_wifi_dhcpserver">DHCP Server:&#160;</string>
+    <string name="status_wifi_dhcplease">DHCP Lease:&#160;</string>
+    <string name="notavailable">Static Lease</string>
+
+    //Area Tab
+    <string name="area_wifi_areascanheader">LOCAL AREA SCAN</string>
+    <string name="area_wifi_areabssidheader">BSSID:&#160;</string>
+    <string name="area_wifi_areafreqheader">Frequency:&#160;</string>
+    <string name="area_wifi_areafreqheaderunit">&#160;MHz</string>
+    <string name="area_wifi_areacapabilitiesheader">Capabilities:&#160;</string>
+    <string name="area_wifi_areachannelheader">Channel:&#160;</string>
+
+    //Location
+    <string name="gps_network_not_enabled">Location services are not enabled. Wifi Scanning will not work in Android Marshmallow unless this is enabled! Your scan result will be blank.</string>
+    <string name="open_location_settings">Location Settings</string>
+    <string name="Cancel">Ignore...</string>
+
+</resources>
