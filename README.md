@@ -23,8 +23,6 @@ View your connections current status and the available access points in your are
 
 Get the best from your WIFI!
 
-Android support up to Oreo!
-
 AREA TAB:
 
     Green = Connected AP
